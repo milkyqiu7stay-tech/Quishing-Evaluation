@@ -41,9 +41,17 @@ The earlier development and external URL validation are recorded in the developm
 - [`scripts/verify_reported_results.py`](scripts/verify_reported_results.py): check aggregate values and recompute Exp8 F_mask from 1,777 per-URL rows
 - [`docs/RELEASE_CHECKLIST_CN.md`](docs/RELEASE_CHECKLIST_CN.md): Chinese pre-publication checklist
 
+
 ## Environment
 
-The preliminary dependency list is in [`requirements.txt`](requirements.txt). Package versions were **not supplied as a complete lockfile**; capture the actual environment with `python -m pip freeze > environment-freeze.txt` in the environment used for the final experiments and review the file before publishing.
+The experimental environment was based on Anaconda with Python 3.10.19 on Windows (64-bit).
+The environment used for Experiment 8 was:
+- Conda environment: `tf`
+- Python version: 3.10.19
+- Package dependencies: `requirements.txt`
+- Installed package versions: `environment-freeze.txt`
+The repository documents the research code and experimental results. Full reproduction requires the original datasets, trained models, and intermediate artifacts described in `docs/REPRODUCIBILITY.md`.
+
 
 ## Scope and limitations
 
