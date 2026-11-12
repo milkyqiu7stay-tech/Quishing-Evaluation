@@ -44,14 +44,15 @@ The earlier development and external URL validation are recorded in the developm
 
 ## Environment
 
-The experimental environment was based on Anaconda with Python 3.10.19 on Windows (64-bit).
-The environment used for Experiment 8 was:
+Experiments was executed in a Windows 64-bit environment using Anaconda and Python 3.10.19.
 - Conda environment: `tf`
 - Python version: 3.10.19
-- Package dependencies: `requirements.txt`
-- Installed package versions: `environment-freeze.txt`
+- Main dependencies: `requirements.txt`
+- Installed package versions:
+  `environment-versions.txt`
 
-The repository documents the research code and experimental results. Full reproduction requires the original datasets, trained models, and intermediate artifacts described in `docs/REPRODUCIBILITY.md`.
+The environment snapshot records the installed packages at the time of export. It is provided for reference and has not been validated as a fully reproducible dependency lockfile.
+Full reproduction also requires the original datasets, trained models, and intermediate artifacts described in `docs/REPRODUCIBILITY.md`.
 
 
 ## Scope and limitations
