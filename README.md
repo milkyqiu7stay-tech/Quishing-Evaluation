@@ -50,6 +50,7 @@ The environment used for Experiment 8 was:
 - Python version: 3.10.19
 - Package dependencies: `requirements.txt`
 - Installed package versions: `environment-freeze.txt`
+
 The repository documents the research code and experimental results. Full reproduction requires the original datasets, trained models, and intermediate artifacts described in `docs/REPRODUCIBILITY.md`.
 
 
