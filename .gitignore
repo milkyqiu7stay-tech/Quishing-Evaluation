@@ -1,0 +1,28 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+**/__pycache__/
+**/.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+# Private / third-party data and model binaries should be reviewed individually
+/data/**
+!/data/README.md
+*.pickle
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.h5
+*.hdf5
+# Generated experiment directories unless carefully reviewed and copied to results/
+experiment*_results/
+experiment6_matched_trad_vs_lexical/
+experiment7_matched_robustness/
+experiment8_qr_mask_invariance_full/
+experiment8_qr_mask_invariance_pilot/
+experiment9_entity_disjoint_results/
+# Outputs copied to results/ are not ignored by default; inspect each CSV first.

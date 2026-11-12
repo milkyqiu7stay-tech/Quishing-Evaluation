@@ -1,0 +1,21 @@
+# Dependencies inferred from the imports and installation cells of the eight notebooks.
+# Versions are intentionally NOT claimed to match the authors' saved environment.
+# Capture and review a true environment-freeze.txt from the experiment machine.
+# Some heavy dependencies (e.g. tensorflow) are only required for CNN reproduction.
+
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+lightgbm
+tensorflow
+matplotlib
+opencv-python
+qrcode[pil]
+Pillow
+tldextract
+joblib
+statsmodels
+jupyterlab
+ipykernel
