@@ -1,0 +1,74 @@
+{
+  "external_dataset": "balanced_urls(1).csv",
+  "total_records": 632508,
+  "source_labels": {
+    "benign": 316254,
+    "malicious": 316254
+  },
+  "exact_url_overlap_rows": 4900,
+  "hostname_overlap_rows": 54936,
+  "strict_unseen_host_records": 577568,
+  "strict_unseen_hosts": 206893,
+  "full_unseen_host": {
+    "N": 577568,
+    "positive": 287524,
+    "negative": 290044,
+    "accuracy": 0.6941485677876891,
+    "balanced_accuracy": 0.694202244040981,
+    "precision": 0.6876675693974272,
+    "recall": 0.7065045004938718,
+    "f1": 0.6969587802183475,
+    "auroc": 0.7283492457409801,
+    "auprc": 0.7217655694445828,
+    "mcc": 0.388502759524518,
+    "tn": 197781,
+    "fp": 92263,
+    "fn": 84387,
+    "tp": 203137
+  },
+  "balanced_20k_control": {
+    "N": 20000,
+    "positive": 10000,
+    "negative": 10000,
+    "accuracy": 0.6993,
+    "balanced_accuracy": 0.6993,
+    "precision": 0.6939470611132736,
+    "recall": 0.7131,
+    "f1": 0.7033931741960939,
+    "auroc": 0.73637377,
+    "auprc": 0.7319846965543017,
+    "mcc": 0.39875190556019596,
+    "tn": 6855,
+    "fp": 3145,
+    "fn": 2869,
+    "tp": 7131
+  },
+  "balanced_20k_bootstrap_ci": {
+    "f1": [
+      0.6913955233456713,
+      0.7142557008896524
+    ],
+    "auroc": [
+      0.7192455873346011,
+      0.7553511339080784
+    ],
+    "mcc": [
+      0.3667954405664685,
+      0.43178454153805557
+    ]
+  },
+  "feature_smd_full_unseen": {
+    "num_subdomains": -0.21466222049454395,
+    "suspicious_keyword_count": -0.4623414659568842,
+    "num_digits": -0.2295510704683636,
+    "path_length": -0.016329304646422585,
+    "hostname_length": -0.18682433065774542,
+    "url_length": -0.021961622385713534,
+    "num_dots": -0.3523249648703023,
+    "special_char_ratio": 0.6500890917391529,
+    "num_hyphens": 0.28529796566878485,
+    "query_length": -0.11030416669864478
+  },
+  "extractor_training_max_error": 9.71445146547012e-17,
+  "psl_snapshot": "esann_icann_psl_snapshot.txt"
+}
